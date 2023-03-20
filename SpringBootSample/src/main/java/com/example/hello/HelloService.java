@@ -18,7 +18,7 @@ public class HelloService {
 		int age = (Integer)map.get("age");
 		
 		Employee employee = new Employee();
-		employee.setEmployeeID(employeeId);
+		employee.setEmployeeId(employeeId);
 		employee.setEmployeeName(name);
 		employee.setEmployeeAge(age);
 		
